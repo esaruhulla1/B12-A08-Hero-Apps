@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://i.ibb.co.com/pBCwx1mh/image.png",
+    "title": "SnapPic Editor",
+    "companyName": "PixelWave Studio",
+    "id": 1,
+    "description": "A lightweight photo editor with AI filters and background remover tools.",
+    "size": 48,
+    "reviews": 12345,
+    "ratingAvg": 4.4,
+    "downloads": 50,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 2200 },
+      { "name": "4 star", "count": 5400 },
+      { "name": "5 star", "count": 7600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/R42kQZ0y/image.png",
+    "title": "TaskFlow",
+    "companyName": "Nexify Labs",
+    "id": 2,
+    "description": "Organize your daily schedule and boost productivity with TaskFlow.",
+    "size": 32,
+    "reviews": 8742,
+    "ratingAvg": 4.2,
+    "downloads": 12,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 450 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "5 star", "count": 3792 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/SwKr6yjV/image.png",
+    "title": "BeatMix Music Player",
+    "companyName": "SonicApps Ltd",
+    "id": 3,
+    "description": "Stream and mix your favorite tracks with this stylish music player.",
+    "size": 61,
+    "reviews": 43210,
+    "ratingAvg": 4.6,
+    "downloads": 10,
+    "ratings": [
+      { "name": "1 star", "count": 1400 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 4100 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 24510 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/fdhXQyLN/image.png",
+    "title": "FitBuddy",
+    "companyName": "WellnessX",
+    "id": 4,
+    "description": "Track workouts, count calories, and stay motivated with FitBuddy.",
+    "size": 55,
+    "reviews": 21000,
+    "ratingAvg": 4.5,
+    "downloads": 75,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 11200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/svsVGzzV/image.png",
+    "title": "QuickNote",
+    "companyName": "NoteLab",
+    "id": 5,
+    "description": "Minimal note-taking app with cloud sync and markdown support.",
+    "size": 28,
+    "reviews": 5400,
+    "ratingAvg": 4.1,
+    "downloads": 80,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 2100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/5X0McV9R/8-q7-UIDcbwe-B0-Sp5-Fz-Hc6he-Po2h-Y95sa-UJDIm-n9-WBNb8jv4-Hx-Et-Vm-JWw-VITso-Ns-Q-w240-h480-rw.webp",
+    "title": "BudgetWise",
+    "companyName": "FinSmart Apps",
+    "id": 6,
+    "description": "Manage your expenses and savings with real-time visual reports.",
+    "size": 39,
+    "reviews": 15600,
+    "ratingAvg": 4.3,
+    "downloads": 20,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 4700 },
+      { "name": "5 star", "count": 8600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/LXct5Wq4/image.png",
+    "title": "LangPro",
+    "companyName": "EduTech Global",
+    "id": 7,
+    "description": "AI-powered language learning app with interactive lessons and quizzes.",
+    "size": 72,
+    "reviews": 65000,
+    "ratingAvg": 4.8,
+    "downloads": 15,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 5200 },
+      { "name": "4 star", "count": 14500 },
+      { "name": "5 star", "count": 40800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/bgQtDPtc/image.png",
+    "title": "CookMate",
+    "companyName": "KitchenPro Ltd",
+    "id": 8,
+    "description": "Discover new recipes, create grocery lists, and share your dishes.",
+    "size": 50,
+    "reviews": 24,
+    "ratingAvg": 4.5,
+    "downloads": 56,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 3100 },
+      { "name": "4 star", "count": 8000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/8L4cTfgw/image.png",
+    "title": "Weatherly",
+    "companyName": "SkyView Tech",
+    "id": 9,
+    "description": "Real-time weather updates with satellite maps and severe alerts.",
+    "size": 46,
+    "reviews": 9000,
+    "ratingAvg": 4.0,
+    "downloads": 30,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1700 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 3300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/b5YZQYkf/image.png",
+    "title": "MindEase",
+    "companyName": "Calmify Inc.",
+    "id": 10,
+    "description": "Relax and meditate with guided sessions, sleep sounds, and timers.",
+    "size": 63,
+    "reviews": 40,
+    "ratingAvg": 4.7,
+    "downloads": 10,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1400 },
+      { "name": "3 star", "count": 3400 },
+      { "name": "4 star", "count": 8200 },
+      { "name": "5 star", "count": 26100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/PsNVwvJD/image.png",
+    "title": "RideGo",
+    "companyName": "UrbanMove",
+    "id": 11,
+    "description": "Book cabs, bikes, or rentals instantly with GPS tracking and safety tools.",
+    "size": 75,
+    "reviews": 54000,
+    "ratingAvg": 4.3,
+    "downloads": 20,
+    "ratings": [
+      { "name": "1 star", "count": 3100 },
+      { "name": "2 star", "count": 2800 },
+      { "name": "3 star", "count": 6400 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 29700 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/d052GNMh/image.png",
+    "title": "ShopSmart",
+    "companyName": "eMart Tech",
+    "id": 12,
+    "description": "Compare prices, track discounts, and shop smarter online.",
+    "size": 42,
+    "reviews": 18000,
+    "ratingAvg": 4.2,
+    "downloads": 80,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 7600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Z1p87zL0/image.png",
+    "title": "StudyPal",
+    "companyName": "LearnUp",
+    "id": 13,
+    "description": "Make study groups, share flashcards, and learn with your peers.",
+    "size": 59,
+    "reviews": 35000,
+    "ratingAvg": 4.6,
+    "downloads": 90,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 2700 },
+      { "name": "4 star", "count": 7200 },
+      { "name": "5 star", "count": 22400 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/9kTY0YpN/image.png",
+    "title": "SafeVault",
+    "companyName": "SecureTech",
+    "id": 14,
+    "description": "Protect your files, photos, and passwords with strong encryption.",
+    "size": 44,
+    "reviews": 11000,
+    "ratingAvg": 4.5,
+    "downloads": 20,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3400 },
+      { "name": "5 star", "count": 5400 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/3m9S0v5q/image.png",
+    "title": "TravelMate",
+    "companyName": "GoTrip Studio",
+    "id": 15,
+    "description": "Plan trips, find attractions, and manage your itinerary easily.",
+    "size": 66,
+    "reviews": 28000,
+    "ratingAvg": 4.4,
+    "downloads": 60,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 8000 },
+      { "name": "5 star", "count": 15500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/F4xX8hcs/image.png",
+    "title": "CodeMate",
+    "companyName": "DevTools Ltd",
+    "id": 16,
+    "description": "Mobile IDE for coding in HTML, JS, and Python with live preview.",
+    "size": 84,
+    "reviews": 16000,
+    "ratingAvg": 4.3,
+    "downloads": 25,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 8100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/whyfrWN3/image.png",
+    "title": "DailyQuote",
+    "companyName": "MindSpark",
+    "id": 17,
+    "description": "Get inspiring daily quotes and share with your friends instantly.",
+    "size": 18,
+    "reviews": 5800,
+    "ratingAvg": 4.0,
+    "downloads": 10,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 1800 },
+      { "name": "5 star", "count": 1800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/ymws30Mq/image.png",
+    "title": "VidPro Editor",
+    "companyName": "CineWave",
+    "id": 18,
+    "description": "Powerful mobile video editor with transitions, AI cut, and 4K export.",
+    "size": 92,
+    "reviews": 78000,
+    "ratingAvg": 4.7,
+    "downloads": 30,
+    "ratings": [
+      { "name": "1 star", "count": 3500 },
+      { "name": "2 star", "count": 3900 },
+      { "name": "3 star", "count": 8500 },
+      { "name": "4 star", "count": 18000 },
+      { "name": "5 star", "count": 44200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/xSPC8rCX/image.png",
+    "title": "Bookify",
+    "companyName": "ReadZone",
+    "id": 19,
+    "description": "Read thousands of free eBooks and sync progress across devices.",
+    "size": 58,
+    "reviews": 23000,
+    "ratingAvg": 4.5,
+    "downloads": 50,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1900 },
+      { "name": "4 star", "count": 5900 },
+      { "name": "5 star", "count": 11500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/0pCH17kT/image.png",
+    "title": "PetCare",
+    "companyName": "AnimalHub",
+    "id": 20,
+    "description": "Track vet appointments, nutrition, and health records for your pets.",
+    "size": 48,
+    "reviews": 9600,
+    "ratingAvg": 4.3,
+    "downloads": 14,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 4000 }
+    ]
+  }
+]
