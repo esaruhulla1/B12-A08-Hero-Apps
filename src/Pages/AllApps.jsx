@@ -32,8 +32,11 @@ const AllApps = () => {
                 </label>
             </div>
             {
-                loading ? (
-                    <loading></loading>
+                 searchedProducts.length===0? (
+                    <div className='space-y-5 mt-20'>
+                        <h1 className='text-center text-3xl text-gray-500 font-bold'>No App Found!</h1>
+                        <h5 className='text-center text-4xl'>😟</h5>
+                    </div>
                 ) : (
                     <div className=' mb-15 grid grid-cols-1 gap-5 md:grid-cols-3 lg:grid-cols-4'>
                         {
