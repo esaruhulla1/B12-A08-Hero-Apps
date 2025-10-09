@@ -21,8 +21,8 @@ const Home = () => {
                     <p className='text-gray-400'>At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br /> Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
                 </div>
                 <div className='flex gap-5 justify-center'>
-                    <a className='btn' href="https://play.google.com/store"><img src={'playStore.png'} alt="" />Google Play</a>
-                    <a className='btn' href="https://www.apple.com/app-store"><img src={'appStore.png'} alt="" /> App Store</a>
+                    <a className='btn' href="https://play.google.com/store"><img src={'/playStore.png'} alt="" />Google Play</a>
+                    <a className='btn' href="https://www.apple.com/app-store"><img src={'/appStore.png'} alt="" /> App Store</a>
                 </div>
                 <div className=''>
                     <img className='max-w-[60%] mx-auto' src={heroImg} alt="" />

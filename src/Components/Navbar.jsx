@@ -45,7 +45,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a href="https://github.com/esaruhulla1" className='btn bg-[#7a42e9]  text-white'><span><img src={'vector1.png'} alt="" /></span>Contribute</a>
+                <a href="https://github.com/esaruhulla1" className='btn bg-[#7a42e9]  text-white'><span><img src={'/vector1.png'} alt="" /></span>Contribute</a>
             </div>
         </div>
     );
