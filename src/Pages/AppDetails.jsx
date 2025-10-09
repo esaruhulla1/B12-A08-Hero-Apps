@@ -7,6 +7,7 @@ import star from '../assets/icon-ratings.png'
 import download from '../assets/icon-downloads.png'
 import { ComposedChart, Line, Area, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, } from 'recharts';
 import ErrorApp from '../ErrorPage/ErrorApp';
+import { toast } from 'react-toastify';
 
 
 
@@ -44,7 +45,7 @@ const AppDetails = () => {
         setInstalled(true);
 
         // success alert
-        alert('✅ App installed successfully!');
+        toast('✅ App installed successfully!');
     };
     // end
 

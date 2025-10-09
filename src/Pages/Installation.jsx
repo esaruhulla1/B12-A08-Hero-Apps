@@ -1,24 +1,22 @@
 import React, { useEffect, useState } from 'react';
+import { toast } from 'react-toastify';
 
 const Installation = () => {
-    const [installedApps, setInstalledApps] = useState([]); // ✅ ইনস্টল করা অ্যাপগুলো রাখবে
-    const [sortOrder, setSortOrder] = useState(''); // ✅ sort dropdown-এর value রাখবে
+    const [installedApps, setInstalledApps] = useState([]); 
+    const [sortOrder, setSortOrder] = useState(''); 
 
-    // ✅ পেজ লোড হলে localStorage থেকে ডাটা আনা
     useEffect(() => {
         const apps = JSON.parse(localStorage.getItem('installedApps')) || [];
         setInstalledApps(apps);
     }, []);
 
-    // ✅ Uninstall বাটন হ্যান্ডলার
     const handleUninstall = (id) => {
         const updatedApps = installedApps.filter(app => app.id !== id);
         setInstalledApps(updatedApps);
         localStorage.setItem('installedApps', JSON.stringify(updatedApps));
-        alert('❌ App Uninstalled Successfully!');
+        toast('❌ App Uninstalled Successfully!')
     };
 
-    // ✅ Sorting logic
     const handleSort = (order) => {
         setSortOrder(order);
 
@@ -58,7 +56,7 @@ const Installation = () => {
                 </div>
             </div>
 
-            {/* ✅ ইনস্টল করা অ্যাপগুলো দেখানো */}
+            
             {installedApps.length === 0 ? (
                 <p className="text-center text-gray-500  text-xl">No apps installed yet.</p>
             ) : (
