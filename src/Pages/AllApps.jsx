@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import useLoadData from '../Hooks/UseLoadData';
 import AppCard from '../Components/AppCard';
 import ErrorPage404 from '../ErrorPage/ErrorPage404';
+import Loading from '../Components/Loading';
 
 const AllApps = () => {
     const { appData, loading, error } = useLoadData();
@@ -11,8 +12,11 @@ const AllApps = () => {
         ? appData.filter(singlData => singlData.title.toLowerCase().includes(term))
         : appData
     console.log(searchedProducts);
+    if (loading) {
+        return <Loading />;
+    }
 
-
+    
 
     return (
         <div className='container mx-auto'>

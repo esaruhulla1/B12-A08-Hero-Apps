@@ -3,11 +3,15 @@ import heroImg from '../assets/hero.png'
 import { Link } from 'react-router';
 import useLoadData from '../Hooks/UseLoadData';
 import AppCard from '../Components/AppCard';
+import Loading from '../Components/Loading';
 
 const Home = () => {
     const { appData, loading, error } = useLoadData();
     const trendingAppData = appData.slice(0, 8)
     // console.log(trendingAppData);
+    if (loading) {
+        return <Loading />;
+    }
 
     return (
         <div>
