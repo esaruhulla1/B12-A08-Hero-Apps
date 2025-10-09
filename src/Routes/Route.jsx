@@ -19,7 +19,8 @@ const router = createBrowserRouter([
       },
       {
         path: '/allapps',
-        Component: AllApps
+        Component: AllApps,
+        
       },
       {
         path: '/installation',
@@ -28,7 +29,7 @@ const router = createBrowserRouter([
       {
         path: '/allapps/:id',
         Component: AppDetails
-      }
+      },
     ]
    
   },

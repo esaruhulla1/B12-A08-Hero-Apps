@@ -20,6 +20,7 @@ const AppDetails = () => {
     const filterData = appData.find(singlaData => singlaData.id === Number(id))
     console.log(typeof filterData);
 
+    
     useEffect(() => {
         if (!loading && filterData) {
             setRatings(filterData.ratings || []);
@@ -38,6 +39,7 @@ const AppDetails = () => {
             setInstalled(true);
             return;
         }
+
 
         
         installedApps.push(filterData);

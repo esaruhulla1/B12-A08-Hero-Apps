@@ -5,7 +5,7 @@ const AppCard = ({ singlData }) => {
     const { ratingAvg, title, image, downloads, id } = singlData
     return (
         <Link to={`/allapps/${id}`}>
-            <div className='p-5 bg-[#ffffff] space-y-3 shadow rounded-lg'>
+            <div className='p-5 bg-[#ffffff] space-y-3 shadow rounded-lg hover:shadow-2xl'>
                 <img className=' w-[316px] mx-auto rounded-2xl' src={image} alt="" />
                 <h3 className='text-xl font-bold'>{title}</h3>
                 <div className='flex justify-between'>

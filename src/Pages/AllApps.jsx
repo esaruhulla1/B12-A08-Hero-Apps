@@ -8,6 +8,7 @@ const AllApps = () => {
     const { appData, loading, error } = useLoadData();
     const [search, setSearch] = useState('')
     const term = search.trim().toLowerCase()
+    
     const searchedProducts = term
         ? appData.filter(singlData => singlData.title.toLowerCase().includes(term))
         : appData
@@ -16,7 +17,8 @@ const AllApps = () => {
         return <Loading />;
     }
 
-    
+
+
 
     return (
         <div className='container mx-auto'>
