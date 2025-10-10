@@ -11,4 +11,8 @@ Hero IO is a modern Mobile Apps Showcase Website built with React. It displays d
 
 The website’s responsive and elegant design is powered by Tailwind CSS and DaisyUI, making it both aesthetic and user-friendly across all devices. Users can easily browse different apps, view app details, and analyze popularity trends through interactive charts and visual data.
 
-This project is a great example of using React for dynamic UI rendering and Tailwind for modern, component-based styling.
+This project is a great example of using React for dynamic UI rendering and Tailwind for modern, component-based styling. 
+
+
+
+all side ok
