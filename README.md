@@ -62,7 +62,7 @@ Start the server
 
 
 ## Dependency
-"devDependencies": {
+
         "@eslint/js": "^9.36.0",
         "@types/react": "^19.1.16",
         "@types/react-dom": "^19.1.9",
@@ -73,7 +73,7 @@ Start the server
         "eslint-plugin-react-refresh": "^0.4.22",
         "globals": "^16.4.0",
         "vite": "^7.1.7"
-      }
+
 
 
 
